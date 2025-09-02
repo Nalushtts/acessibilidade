@@ -118,7 +118,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #abe0ff;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -135,7 +135,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #abe0ff;
 }
 .menu-acessibilidade{
     position: fixed;
