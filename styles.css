@@ -8,10 +8,11 @@
 body {
     font-size: 1rem;
     font-family: 'Montserrat';
+    background-color: #abe0ff;
 }
 
 header {
-    background-color: #abe0ff;
+    
 }
 
 
@@ -21,13 +22,12 @@ section {
 
 
 .nav-link {
-    color: #ffffff;
+    color: #abe0ff;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/castelo\ animado\ fundo.jpeg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -37,24 +37,6 @@ section {
     padding: 40px;
     margin: 0 auto;
 }
-
-/* posicionamento para a imagem à direita */
-.img-inicio {
-    position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
-}
-
-
-.esquerda-conteudo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1rem;
-}
-
 
 .botao-inicio {
     background-color: var(--laranja-claro);
@@ -70,6 +52,9 @@ section {
     text-shadow: -5px 5px var(--laranja-claro);
 }
 
+header {
+    background: url("img/castelo animado fundo.jpeg") center/cover no-repeat;
+}
 
 #tropicalia {
     position: relative;
@@ -78,8 +63,9 @@ section {
     margin-bottom: 3rem;
     background: url('img/Studio-Ghibli-Logo.jpg') top right no-repeat,
         url('img/ponyo.webp') bottom left no-repeat;
-    background-size: 180px 180px;
+    background-size: 180px 18   0px;
     /* Ajuste o tamanho conforme necessário */
+
 }
 
 #tropicalia .container {
@@ -100,12 +86,13 @@ h2 {
 }
 
 #galeria {
-    background-color: #ffffff;
+    background-color: #64a5ca;
+    border-radius: 15px;
 
 }
 
 .fundo-galeria {
-    background: url('img/O-Servico-de-Entregas-da-Kiki-kiki-e-tombo-1.webp') bottom right no-repeat;
+    background: url bottom right no-repeat;
     background-size: 180px 180px;
 }
 
@@ -118,7 +105,7 @@ h2 {
 }
 
 .formulario {
-    background-color: #abe0ff;
+    background-color: #64a5ca;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
@@ -129,13 +116,13 @@ h2 {
 }
 
 .formulario button {
-    background-color: #346194;
+    background-color: #2e4a6b;
     border: none;
     font-weight: bold;
 }
 
 .form-control {
-    background-color: #abe0ff;
+    background-color: #64a5ca;
 }
 .menu-acessibilidade{
     position: fixed;
